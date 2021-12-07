@@ -18,3 +18,4 @@ shape = SubResource( 1 )
 
 [node name="Player_Camera" type="Camera2D" parent="."]
 current = true
+smoothing_enabled = true
