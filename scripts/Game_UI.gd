@@ -1,19 +1,20 @@
-extends Control
+extends CanvasLayer
 
 # UI Vars
 export (int) var time = 120
 export (int) var coins = 0
 
 func _ready():
-	$TimeLabel.text = time_format(time)
-	$CoinsLabel.text = coins_format(coins)
+	update_UI()
+	
+func _on_Timer_timeout():
+	time -= 1
+	update_UI()
 
-func _process(delta):
-	$TimeLabel.text = time_format(time)
-	$CoinsLabel.text = coins_format(coins)
+# UI Update Function
+func update_UI():
+	$TimeLabel.text = "Time: %s" % time
+	$CoinsLabel.text = "Coins: %s" % coins
 
-func time_format(time_param: int):
-	return "Time: %s" % time_param
 
-func coins_format(coins_param: int):
-	return "Coins: %s" % coins_param
+
