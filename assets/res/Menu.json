@@ -1,0 +1,22 @@
+{ "frames": [
+   {
+    "filename": "Menu.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 1024, "h": 600 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1024, "h": 600 },
+    "sourceSize": { "w": 1024, "h": 600 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.30",
+  "image": "Menu.png",
+  "format": "RGBA8888",
+  "size": { "w": 1024, "h": 600 },
+  "scale": "1",
+  "frameTags": [
+  ]
+ }
+}
