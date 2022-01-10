@@ -2,12 +2,12 @@
 
 importer="aseprite.wizard.plugin"
 type="SpriteFrames"
-path="res://.import/new_basic_walk.aseprite-e1c2c78a012febfc3eb0745542fa2bc6.res"
+path="res://.import/Box.aseprite-e3a3f8ae655ef4615ec1b11318c8b1ae.res"
 
 [deps]
 
-source_file="res://new_basic_walk.aseprite"
-dest_files=[ "res://.import/new_basic_walk.aseprite-e1c2c78a012febfc3eb0745542fa2bc6.res" ]
+source_file="res://assets/aseprite/Box.aseprite"
+dest_files=[ "res://.import/Box.aseprite-e3a3f8ae655ef4615ec1b11318c8b1ae.res" ]
 
 [params]
 

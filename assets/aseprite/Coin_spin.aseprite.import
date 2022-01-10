@@ -2,12 +2,12 @@
 
 importer="aseprite.wizard.plugin"
 type="SpriteFrames"
-path="res://.import/Player Red.aseprite-970354c08f34736d5a631327a54c9613.res"
+path="res://.import/Coin_spin.aseprite-06a5484a811a3a55d7e664fdfe3779d7.res"
 
 [deps]
 
-source_file="res://assets/aseprite/Player Red.aseprite"
-dest_files=[ "res://.import/Player Red.aseprite-970354c08f34736d5a631327a54c9613.res" ]
+source_file="res://assets/aseprite/Coin_spin.aseprite"
+dest_files=[ "res://.import/Coin_spin.aseprite-06a5484a811a3a55d7e664fdfe3779d7.res" ]
 
 [params]
 

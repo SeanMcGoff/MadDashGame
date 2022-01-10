@@ -1,0 +1,154 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://assets/png/Menu.png" type="Texture" id=1]
+[ext_resource path="res://themes/ui_theme.tres" type="Theme" id=2]
+[ext_resource path="res://assets/ttf/Pixeled.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://scripts/Server_Browser.gd" type="Script" id=4]
+[ext_resource path="res://scenes/Server_Listener.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scripts/Server_Browser_Label_Anim.gd" type="Script" id=6]
+
+[sub_resource type="DynamicFont" id=2]
+size = 15
+font_data = ExtResource( 3 )
+
+[sub_resource type="Animation" id=3]
+resource_name = "Searching"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:text")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.25, 0.5, 0.75 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ "SEARCHING FOR SERVERS", "SEARCHING FOR SERVERS.", "SEARCHING FOR SERVERS..", "SEARCHING FOR SERVERS..." ]
+}
+
+[node name="Server_Browser" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="TextureRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Manual_Setup_Button" type="Button" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -185.0
+margin_top = -157.0
+margin_right = 4.0
+margin_bottom = -109.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource( 2 )
+text = "MANUAL SETUP"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Back" type="Button" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -1024.0
+margin_top = -157.0
+margin_right = -840.0
+margin_bottom = -109.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource( 2 )
+text = "BACK"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Manual" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -327.0
+margin_top = -143.0
+margin_right = 327.0
+margin_bottom = 143.0
+custom_constants/separation = 30
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="server_IP" type="LineEdit" parent="Manual"]
+margin_right = 654.0
+margin_bottom = 52.0
+custom_colors/font_color = Color( 0.85098, 1, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+align = 1
+placeholder_text = "IP ADDRESS"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Join_Server" type="Button" parent="Manual"]
+margin_left = 246.0
+margin_top = 82.0
+margin_right = 408.0
+margin_bottom = 130.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource( 2 )
+text = "JOIN SERVER"
+
+[node name="Server_Container" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -327.0
+margin_right = 327.0
+margin_bottom = 491.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Browser Label" type="Label" parent="Server_Container"]
+margin_right = 654.0
+margin_bottom = 42.0
+theme = ExtResource( 2 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "SERVER BROWSER"
+align = 1
+valign = 1
+
+[node name="Searching" type="Label" parent="Server_Container"]
+margin_top = 46.0
+margin_right = 654.0
+margin_bottom = 88.0
+theme = ExtResource( 2 )
+custom_colors/font_color = Color( 0.85098, 1, 0, 1 )
+text = "SEARCHING FOR SERVERS"
+align = 1
+valign = 1
+script = ExtResource( 6 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Server_Container/Searching"]
+anims/Searching = SubResource( 3 )
+
+[node name="Server_Listener" parent="." instance=ExtResource( 5 )]
+
+[connection signal="pressed" from="Manual_Setup_Button" to="." method="_on_Manual_Setup_pressed"]
+[connection signal="pressed" from="Back" to="." method="_on_Back_pressed"]
+[connection signal="pressed" from="Manual/Join_Server" to="." method="_on_Join_Server_pressed"]
+[connection signal="new_server" from="Server_Listener" to="." method="_on_Server_Listener_new_server"]
+[connection signal="remove_server" from="Server_Listener" to="." method="_on_Server_Listener_remove_server"]

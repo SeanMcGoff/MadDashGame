@@ -1,0 +1,175 @@
+{ "frames": [
+   {
+    "filename": "Coin_spin 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 1.aseprite",
+    "frame": { "x": 63, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 2.aseprite",
+    "frame": { "x": 126, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 3.aseprite",
+    "frame": { "x": 189, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 4.aseprite",
+    "frame": { "x": 252, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 5.aseprite",
+    "frame": { "x": 315, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 6.aseprite",
+    "frame": { "x": 378, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 7.aseprite",
+    "frame": { "x": 441, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 8.aseprite",
+    "frame": { "x": 504, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 9.aseprite",
+    "frame": { "x": 567, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 10.aseprite",
+    "frame": { "x": 630, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 11.aseprite",
+    "frame": { "x": 693, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 12.aseprite",
+    "frame": { "x": 756, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 13.aseprite",
+    "frame": { "x": 819, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 14.aseprite",
+    "frame": { "x": 882, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 15.aseprite",
+    "frame": { "x": 945, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 16.aseprite",
+    "frame": { "x": 1008, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   },
+   {
+    "filename": "Coin_spin 17.aseprite",
+    "frame": { "x": 1071, "y": 0, "w": 63, "h": 63 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 63, "h": 63 },
+    "sourceSize": { "w": 63, "h": 63 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.30",
+  "image": "Coin_spin.png",
+  "format": "RGBA8888",
+  "size": { "w": 1134, "h": 63 },
+  "scale": "1",
+  "frameTags": [
+  ]
+ }
+}
