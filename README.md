@@ -43,6 +43,7 @@ E - Speed up Clock (not available on player's own clock)
 Installation is rather simple. Find and download the newest version on the [releases page](https://github.com/SeanMcGoff/MadDashGame/releases), and double click on the binary file that works with your OS. The code is not signed, so Windows SmartScreen and MacOS's security will flag the file as being from an unidentified developer. To get around this, follow these guides:
 
 [MacOS](https://support.apple.com/en-us/HT202491)
+
 [Windows](https://www.windowscentral.com/how-fix-app-has-been-blocked-your-protection-windows-10)
 
 ## Credits
