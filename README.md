@@ -25,6 +25,26 @@ The players then can use their gold to do 1 of 4 things:
 Note that since your possible gold output is directly tied to your clocks’ speed, a player with a faster ticking clock will produce more gold, and vice-versa. 
 The end of the game is reached when only one player’s clock has not reached 0:00.
 
+## Controls
+
+**Movement**
+WASD / Arrow Keys - Move Up/Left/Down/Right
+
+**Mining**
+E - Mine coin with mining machine
+Left Click (on other player) - Give coin to other Player
+
+**The Clock**
+Q - Slow down clock
+E - Speed up Clock (not available on player's own clock)
+
+## Installation
+
+Installation is rather simple. Find and download the newest version on the [releases page](https://github.com/SeanMcGoff/MadDashGame/releases), and double click on the binary file that works with your OS. The code is not signed, so Windows SmartScreen and MacOS's security will flag the file as being from an unidentified developer. To get around this, follow these guides:
+
+[MacOS](https://support.apple.com/en-us/HT202491)
+[Windows](https://www.windowscentral.com/how-fix-app-has-been-blocked-your-protection-windows-10)
+
 ## Credits
 
 Game Engine: [Godot 3.4.x](https://github.com/godotengine/godot)
