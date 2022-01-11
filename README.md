@@ -28,14 +28,19 @@ The end of the game is reached when only one player’s clock has not reached 0:
 ## Controls
 
 **Movement**
+
 WASD / Arrow Keys - Move Up/Left/Down/Right
 
 **Mining**
+
 E - Mine coin with mining machine
+
 Left Click (on other player) - Give coin to other Player
 
 **The Clock**
+
 Q - Slow down clock
+
 E - Speed up Clock (not available on player's own clock)
 
 ## Installation
